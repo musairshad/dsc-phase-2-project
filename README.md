@@ -50,7 +50,8 @@ We were filtering the dataset with mean `vote_average`, TheMovieDB Dataset was u
 Based on above analysis, we were analyzing top 4 genre categories with `genre_list` and `vote_average` standings using Boxplot.
 
 <p align="center">
-  <img src = "https://github.com/YamunaU75/FortuneMoviePhase2/blob/main/images/Boxplot.png" width="750" height="538"
+  <img src = "https://github.com/YamunaU75/FortuneMoviePhase2/blob/main/images/Bargraph1.png" width="750" height="568"
+  
 </p>
 
 Above Boxplot visualization shows Animation has best ratings. Romance & Drama has similar ratings. 
@@ -59,7 +60,7 @@ Above Boxplot visualization shows Animation has best ratings. Romance & Drama ha
 Using SQL database table movie_basics with top 4 genres, and merging with dataset tn_moviesbudget to have columns genre, production_budget, gross avenue together. Merging the data using movie title as primary key. Visualizing which genre makes best revenue.
 
 <p align="center">
-  <img src = "https://github.com/YamunaU75/FortuneMoviePhase2/blob/main/images/Bargraph2_budget.png" width="750" height="510"
+  <img src = "https://github.com/YamunaU75/FortuneMoviePhase2/blob/main/images/Bargraph2_budget.png" width="750" height="518"
 </p>
 
 Above visualization shows production budget for Animation starting at 70M+, Scifi budget is 35M+. Other options to make top movies in low budget would be Romance & Drama which starts at 20-25M. 
@@ -68,7 +69,7 @@ Above visualization shows production budget for Animation starting at 70M+, Scif
 same dataset tn_movies_moviebasics, and analyzing between top genres and domestic_gross. 
 
 <p align="center">
-  <img src = "https://github.com/YamunaU75/FortuneMoviePhase2/blob/main/images/Bargraph3_Revenue.png" width="750" height="513"
+  <img src = "https://github.com/YamunaU75/FortuneMoviePhase2/blob/main/images/Bargraph3_Revenue.png" width="750" height="496"
 </p>
 
 Above visualization shows Gross revenue increase in Animation and Scifi. Animation earns 10-15% profit where as Sci-Fi earns 50-70% profit. Gross revenue for Romance and Drama was not appealing.
@@ -114,7 +115,7 @@ Above Visualization shows Alison Kam, Mitchell Campos, Victoria Holt, Jason Pete
 
 ## Conclusion & Recommendations:
 
-**Genres:** Based on our analysis, top 4 genres are Animation and Sci-Fi.
+**Genres:** Based on our analysis, top genres are Animation, Sci-Fi and Drama.
 
 **Revenue:** Animation 10-15% revenue increase, Sci-Fi has 50-70% revenue increase, Drama has no gain & no loss.
 
@@ -139,6 +140,6 @@ Above Visualization shows Alison Kam, Mitchell Campos, Victoria Holt, Jason Pete
 ├── zippedData
 ├── .gitignore
 ├── presentation
-├── index.ipynb
-└── README.md
+├── README.md
+└── index.ipynb
 ```
